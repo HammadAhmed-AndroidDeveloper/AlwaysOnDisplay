@@ -40,7 +40,6 @@ class AtomicClocksActivity : AppCompatActivity() {
     private lateinit var abstractLayout: LinearLayout
     private var preferences: Preferences? = null
     private lateinit var binding: ActivityAtomicClocksBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -72,7 +71,6 @@ class AtomicClocksActivity : AppCompatActivity() {
         val iFilter = IntentFilter(Intent.ACTION_BATTERY_CHANGED)
         registerReceiver(mBroadcastReceiver, iFilter)
         atomicNumber = preferences?.getAtomicApply()
-
 
         when (atomicNumber) {
             "atomic1" -> setClocksVisibility(atomic1, atomic2, atomic3, atomic4, atomic5, atomic6, atomic7, atomic8, atomic9, atomic10)

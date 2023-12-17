@@ -45,7 +45,6 @@ class AbstractClockDetailsActivity : AppCompatActivity() {
     private lateinit var optionsLayout: LinearLayout
     private lateinit var abstractLayout: LinearLayout
     private lateinit var preferences: Preferences
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

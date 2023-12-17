@@ -61,7 +61,6 @@ class OverlayService : Service() {
     private fun registerOverlayReceiver() {
         val filter = IntentFilter()
         filter.addAction(Intent.ACTION_SCREEN_OFF)
-//        filter.addAction(ACTION_DEBUG)
         registerReceiver(overlayReceiver, filter)
     }
 

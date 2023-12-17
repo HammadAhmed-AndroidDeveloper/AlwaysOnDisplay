@@ -24,7 +24,6 @@ class AtomicClockActivity : AppCompatActivity() {
     private lateinit var atomic9: SimpleAnalogClock
     private lateinit var atomic10: SimpleAnalogClock
     private lateinit var binding: ActivityAtomicClockBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAtomicClockBinding.inflate(layoutInflater)

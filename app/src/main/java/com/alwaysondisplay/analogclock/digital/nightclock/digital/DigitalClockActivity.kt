@@ -25,31 +25,24 @@ class DigitalClockActivity : AppCompatActivity() {
         binding.clock1Layout.setOnClickListener {
             startActivity("digital1")
         }
-
         binding.clock2Layout.setOnClickListener {
             startActivity("digital2")
         }
-
         binding.clock3Layout.setOnClickListener {
             startActivity("digital3")
         }
-
         binding.clock4Layout.setOnClickListener {
             startActivity("digital4")
         }
-
         binding.clock5Layout.setOnClickListener {
             startActivity("digital5")
         }
-
         binding.clock6Layout.setOnClickListener {
             startActivity("digital6")
         }
-
         binding.clock7Layout.setOnClickListener {
             startActivity("digital7")
         }
-
         binding.clock8Layout.setOnClickListener {
             startActivity("digital8")
         }

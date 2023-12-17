@@ -21,6 +21,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
         supportActionBar!!.hide()
+
         startTv = findViewById(R.id.tv_start)
         loader = findViewById(R.id.spin_kit)
         Handler(Looper.getMainLooper()).postDelayed({

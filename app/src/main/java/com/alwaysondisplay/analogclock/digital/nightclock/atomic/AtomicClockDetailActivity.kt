@@ -44,7 +44,6 @@ class AtomicClockDetailActivity : AppCompatActivity() {
     private lateinit var optionsLayout: LinearLayout
     private lateinit var abstractLayout: LinearLayout
     private var preferences: Preferences? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAtomicClockDetailBinding.inflate(layoutInflater)

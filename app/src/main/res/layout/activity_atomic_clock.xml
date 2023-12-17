@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".atomic.AtomicClockActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:orientation="horizontal">
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_1"
+                app:hourDrawable="@drawable/hour1"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute1"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second1"
+                app:secondTint="@color/teal_200" />
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_2"
+                app:hourDrawable="@drawable/hour2"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute2"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second2"
+                app:secondTint="@color/teal_200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:orientation="horizontal">
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_3"
+                app:hourDrawable="@drawable/hour3"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute3"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second3"
+                app:secondTint="@color/teal_200" />
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_4"
+                app:hourDrawable="@drawable/hour4"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute4"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second4"
+                app:secondTint="@color/teal_200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:orientation="horizontal">
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic5"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_5"
+                app:hourDrawable="@drawable/hour5"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute5"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second5"
+                app:secondTint="@color/teal_200" />
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic6"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_6"
+                app:hourDrawable="@drawable/hour6"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute6"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second6"
+                app:secondTint="@color/teal_200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:orientation="horizontal">
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic7"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_7"
+                app:hourDrawable="@drawable/hour7"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute7"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second7"
+                app:secondTint="@color/teal_200" />
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic8"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_8"
+                app:hourDrawable="@drawable/hour8"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute8"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second8"
+                app:secondTint="@color/teal_200" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:orientation="horizontal">
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic9"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_9"
+                app:hourDrawable="@drawable/hour9"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute9"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second9"
+                app:secondTint="@color/teal_200" />
+
+            <com.leondzn.simpleanalogclock.SimpleAnalogClock
+                android:id="@+id/atomic10"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:padding="@dimen/_7sdp"
+                app:faceDrawable="@drawable/atomic_dial_10"
+                app:hourDrawable="@drawable/hour10"
+                app:hourTint="@color/white"
+                app:minuteDrawable="@drawable/minute10"
+                app:minuteTint="@color/haf_black"
+                app:secondDrawable="@drawable/second10"
+                app:secondTint="@color/teal_200" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

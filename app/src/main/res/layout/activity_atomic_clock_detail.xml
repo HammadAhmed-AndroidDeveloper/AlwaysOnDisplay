@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".atomic.AtomicClockDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/timeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextClock
+                android:id="@+id/Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:format12Hour="dd-mm-yyyy"
+                android:format24Hour="hh:mm"
+                android:singleLine="true"
+                android:text="04:50"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/_30sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:ellipsize="none"
+            android:format12Hour="dd-mm-yyyy"
+            android:format24Hour="dd-mm-yyyy"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_6sdp"
+            android:paddingRight="@dimen/_6sdp"
+            android:singleLine="true"
+            android:text="15-2-2022"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/abstractLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/batteryLayout_button"
+        android:layout_below="@id/timeLayout"
+        android:orientation="vertical">
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_1"
+            app:hourDrawable="@drawable/hour1"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute1"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second1"
+            app:secondTint="@color/teal_200" />
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_2"
+            app:hourDrawable="@drawable/hour2"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute2"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second2"
+            app:secondTint="@color/teal_200" />
+
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_3"
+            app:hourDrawable="@drawable/hour3"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute3"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second3"
+            app:secondTint="@color/teal_200" />
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_4"
+            app:hourDrawable="@drawable/hour4"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute4"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second4"
+            app:secondTint="@color/teal_200" />
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_5"
+            app:hourDrawable="@drawable/hour5"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute5"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second5"
+            app:secondTint="@color/teal_200" />
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_6"
+            app:hourDrawable="@drawable/hour6"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute6"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second6"
+            app:secondTint="@color/teal_200" />
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_7"
+            app:hourDrawable="@drawable/hour7"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute7"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second7"
+            app:secondTint="@color/teal_200" />
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_8"
+            app:hourDrawable="@drawable/hour8"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute8"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second8"
+            app:secondTint="@color/teal_200" />
+
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_9"
+            app:hourDrawable="@drawable/hour9"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute9"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second9"
+            app:secondTint="@color/teal_200" />
+
+        <com.leondzn.simpleanalogclock.SimpleAnalogClock
+            android:id="@+id/atomic10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:padding="@dimen/_60sdp"
+            app:faceDrawable="@drawable/atomic_dial_10"
+            app:hourDrawable="@drawable/hour10"
+            app:hourTint="@color/white"
+            app:minuteDrawable="@drawable/minute10"
+            app:minuteTint="@color/haf_black"
+            app:secondDrawable="@drawable/second10"
+            app:secondTint="@color/teal_200" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/batteryLayout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/batteryLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/ic_battery" />
+
+            <TextView
+                android:id="@+id/batteryLevelTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/_13sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/optionsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/previewBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/preview_button"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Preview"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/applyBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/preview_button"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Set As Display"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

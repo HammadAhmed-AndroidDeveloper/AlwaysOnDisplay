@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "734592832811",
+    "project_id": "aodisplay-2e70c",
+    "storage_bucket": "aodisplay-2e70c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734592832811:android:e4f2c5f0a8267a04cfa16e",
+        "android_client_info": {
+          "package_name": "com.alwaysondisplay.analogclock.digital.nightclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734592832811-odn3sgot1fgctg36k8sgbb7o6djts4bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ICLxDAvzupf6UeCc966cdYcI8i-uAdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734592832811-odn3sgot1fgctg36k8sgbb7o6djts4bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

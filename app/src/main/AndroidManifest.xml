@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlwaysOnDisplay"
+        tools:ignore="LockedOrientationActivity">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.atomic.AtomicClockDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.atomic.AtomicClockActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.atomic.AtomicClocksActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.neon.NeonDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.neon.NeonClocksActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.neon.NeonActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.abstract.AbstractClockActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.abstract.AbstractClockDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.digital.SelectDigitalClocksActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.abstract.SelectAbstractClockActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.digital.DigitalClockPreviewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.digital.DigitalClockActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.activities.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AlwaysOnDisplay.NoActionBar" />
+
+        <service
+            android:name="com.alwaysondisplay.analogclock.digital.nightclock.service.OverlayService"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

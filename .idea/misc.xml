@@ -1,0 +1,83 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/ad_bg.xml" value="0.2725" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/ad_bg_main.xml" value="0.2725" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/button_bg.xml" value="0.22" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/button_main_bg.xml" value="0.2725" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/digital10_bg.xml" value="0.2665" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/digital10_bg2.xml" value="0.2665" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/digital10_bg3.xml" value="0.2665" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2665" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/native_border.xml" value="0.267" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable-v24/privacy_boder.xml" value="0.267" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/ad_icon_bg.xml" value="0.2265" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/analog_attribute.xml" value="0.2315" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/analogsize.xml" value="0.26" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/card_bg.xml" value="0.2315" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/circle_check.xml" value="0.2315" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/ic_battery.xml" value="0.2725" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2665" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/drawable/preview_button.xml" value="0.2725" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_abstract_aod.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_abstract_clock_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_abstract_detail.xml" value="0.2268041237113402" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_atomic_aod.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_atomic_clock_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_atomic_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_digital_clock_aod.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_digital_clock_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_digital_preview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_neon_aod.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_neon_clock_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_neon_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_privacy_police.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/clock_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital10.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital12.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital4.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital5.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital6.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital7.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital8.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital9.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/digital_1.xml" value="0.365625" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/exit_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/fragment_digital_clock.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/light_clock_6.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/light_clock_7.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_ad_main_full_btn.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_ad_main_full_btn1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_button_top.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_check.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_clocks.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_main.xml" value="0.3625" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_small.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/native_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/smart1_1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/layout/smart5.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Apps/AlwaysOnDisplay/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2665" />
+        <entry key="..\:/farhad/New folder/Apps/AlwaysOnDisplay/app/src/main/res/layout/activity_privacy_police.xml" value="0.2791666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

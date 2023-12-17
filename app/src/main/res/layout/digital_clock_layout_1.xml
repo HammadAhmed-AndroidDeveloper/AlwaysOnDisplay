@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_centerInParent="true"
+        android:id="@+id/lottie"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/digital1"
+        app:lottie_speed="0.5" />
+       <LinearLayout
+        android:id="@+id/wid2layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextClock
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ellipsize="none"
+                android:format24Hour="dd mm yyyy"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:singleLine="true"
+                android:text="15 November 2022"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <TextClock
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:format24Hour="aa"
+                android:singleLine="true"
+                android:text="PM"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_60sdp"
+            android:orientation="horizontal">
+
+            <TextClock
+                android:id="@+id/Time"
+                android:layout_width="@dimen/_115sdp"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:format24Hour="hh:mm:"
+                android:singleLine="true"
+                android:text="04:50:"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/_40sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextClock
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:format24Hour="ss"
+                    android:singleLine="true"
+                    android:text="21"
+                    android:textColor="@color/yellow"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

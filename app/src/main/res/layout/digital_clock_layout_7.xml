@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/wid2layout"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_270sdp"
+        android:layout_centerInParent="true">
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:id="@+id/cpv_second7"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_centerInParent="true"
+            app:cpv_barColor="@color/yellow"
+            app:cpv_barWidth="@dimen/_6sdp"
+            app:cpv_blockCount="60"
+            app:cpv_blockScale="0.9"
+            app:cpv_maxValue="60"
+            app:cpv_minValueAllowed="0"
+            app:cpv_rimColor="@color/white"
+            app:cpv_rimWidth="@dimen/_4sdp"
+            app:cpv_textSize="0dp"
+            app:cpv_value="35" />
+
+        <ImageView
+            android:id="@+id/dial"
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="@dimen/_160sdp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/digital_bg6" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextClock
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:ellipsize="none"
+                android:format24Hour="EEEE"
+                android:padding="@dimen/_3sdp"
+                android:singleLine="true"
+                android:text="Monday"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_17sdp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:layout_marginRight="@dimen/_7sdp"
+                android:background="@color/digital3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextClock
+                    android:id="@+id/Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:format24Hour="hh:mm"
+                    android:singleLine="true"
+                    android:text="04:50"
+                    android:textColor="@color/yellow"
+                    android:textSize="@dimen/_40sdp"
+                    android:textStyle="bold" />
+
+                <TextClock
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:ellipsize="none"
+                    android:format24Hour="aa"
+                    android:singleLine="true"
+                    android:text="PM"
+                    android:textColor="@color/yellow"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:layout_marginRight="@dimen/_7sdp"
+                android:background="@color/digital3" />
+
+            <TextClock
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:ellipsize="none"
+                android:format24Hour="dd MMMM"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:singleLine="true"
+                android:text="15 December"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>
